@@ -1,8 +1,8 @@
 ---
-title: "Responsive User Interfaces with Vue 3"
-description: Creating Dynamic and Responsive User Interfaces with Vue 3
+title: "Distutils not found when running pnpm install"
+description: Solve the pnpm install error with python env
 duration: "12min"
-date: "2023-08-11"
+date: "2024-05-07"
 ---
 
 In the realm of modern web development, creating dynamic and responsive user interfaces is paramount to delivering engaging and immersive web experiences. With the advent of Vue 3, developers now have a powerful toolkit at their disposal to craft dynamic, reactive, and high-performing user interfaces like never before. In this article, we'll explore the key features of Vue 3 and demonstrate how to leverage its capabilities to create dynamic and responsive user interfaces.

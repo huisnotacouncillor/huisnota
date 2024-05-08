@@ -1,5 +1,7 @@
 <script lang="ts" setup>
 import siteConfig from '../site-config'
+
+const year = new Date().getFullYear()
 </script>
 
 <template>
@@ -10,7 +12,7 @@ import siteConfig from '../site-config'
       </a>
     </div>
     <div class="flex flex-wrap justify-center text-dark dark:text-white">
-      <span class="opacity-70">2023-PRESENT ©</span>
+      <span class="opacity-70">{{ year }}-PRESENT ©</span>
       <a class="!nav-link opacity-100 ml-1" href="/">{{ siteConfig.author }}</a>
     </div>
   </footer>

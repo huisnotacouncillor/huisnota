@@ -41,7 +41,6 @@ watchEffect(() => {
     </nav>
     <menu sm:hidden inline-block i-ri-menu-2-fill @click="toggleMenu" />
     <div flex gap-4 sm:gap-6>
-      <a nav-link href="rss.xml" i-ri-rss-line />
       <ThemeToggle />
     </div>
   </header>

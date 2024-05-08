@@ -66,5 +66,6 @@
     "yaml",
     "toml",
     "astro"
-  ]
+  ],
+  "deepscan.enable": true
 }

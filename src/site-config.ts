@@ -1,6 +1,6 @@
 export const siteConfig = {
-  author: 'Kaivan Wong',
-  title: 'Vitesse theme for Astro',
+  author: 'huisnota',
+  title: 'huisnota',
   subtitle: 'Supports Vue and UnoCSS.',
   description: 'Vitesse theme for Astro blog, supports Vue and UnoCSS.',
   image: {
@@ -23,21 +23,12 @@ export const siteConfig = {
     },
   ],
   hero: {
-    title: 'Welcome to Vitesse Theme for Astro',
-    text: `<p>Experience the perfect blend of efficiency and aesthetics with Vitesse Theme for Astro. Inspired by the sleek design of antfu.me, this template seamlessly integrates Vue and Unocss to provide you with a cutting-edge development experience.</p>
-    <p><b>Key Features:</b></p>
-    <ol>
-      <li><b>Vue Support:</b> Harness the power of Vue.js to build dynamic and interactive web applications. Vitesse Theme for Astro ensures smooth integration and efficient utilization of Vue components for enhanced functionality.</li>
-      <li><b>Unocss Integration:</b> Streamline your styling process with Unocss, a utility-first CSS framework. By utilizing only the styles you need, Unocss optimizes your codebase for performance without compromising on design flexibility.</li>
-      <li><b>Sleek Design:</b> Drawing inspiration from the modern aesthetic of antfu.me, Vitesse Theme for Astro offers a clean and visually appealing design. From crisp typography to intuitive layouts, every element is crafted with attention to detail to elevate your web presence.</li>
-      <li><b>Customizable Components:</b> Tailor your web applications to suit your unique requirements with Vitesse Theme's customizable components. Whether you're building a portfolio, blog, or e-commerce site, our flexible components adapt to your needs with ease.</li>
-      <li><b>Performance Optimization:</b> Deliver lightning-fast user experiences with Vitesse Theme for Astro's focus on performance optimization. By minimizing unnecessary bloat and prioritizing efficient code practices, your applications will load swiftly and operate seamlessly across devices.</li>
-    </ol>
-    <p>Elevate your web development journey with Vitesse Theme for Astro. Experience the perfect synergy of Vue, Unocss, and modern design principles to create stunning web applications that captivate and engage your audience.</p>
-     `,
+    title: `Welcome to huisnota's Blog`,
+    text: `<p>I would like to share some of my life and work experiences here.</p>`,
     image: {
       src: 'hero.jpg',
-      alt: '',
+      alt: 'A photo from my friend, it\'s really beautiful',
+      imageTile: 'A photo from my friend, hah it\'s really beautiful',
     },
     socialLinks: [],
   },
@@ -113,18 +104,18 @@ export const siteConfig = {
       text: 'About',
       href: '/about',
     },
-    {
-      text: 'Sponsor',
-      href: '/sponsor',
-    },
+    // {
+    //   text: 'Sponsor',
+    //   href: '/sponsor',
+    // },
     {
       text: 'Contact Me',
-      href: 'mailto:kaivanwong@outlook.me',
+      href: 'mailto:huisnota54@gmail.com',
     },
-    {
-      text: 'Github Repo',
-      href: 'https://github.com/kaivanwong/vitesse-astro-theme',
-    },
+    // {
+    //   text: 'Github Repo',
+    //   href: 'https://github.com/kaivanwong/vitesse-astro-theme',
+    // },
   ],
 }
 

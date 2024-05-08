@@ -25,7 +25,7 @@ const Index = () => (
 )
 
 export default Index
----
+---
 ```
 
 ## Support for Multiple Frontend Frameworks
@@ -50,7 +50,7 @@ const Index = () => (
 )
 
 export default Index
----
+---
 ```
 
 ## Instant Reload and Pre-rendering
@@ -71,5 +71,5 @@ const Index = () => (
 )
 
 export default Index
----
+---
 ```
