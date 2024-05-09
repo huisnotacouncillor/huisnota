@@ -19,6 +19,8 @@ type Props = { post: CollectionPosts }
 const { post } = Astro.props
 const { title, image, description } = post.data
 const { Content } = await post.render()
+const { remarkPluginFrontmatter } = await post.render()
+console.log('remarkPluginFrontmatter: ', remarkPluginFrontmatter)
 ---
 
 <BaseLayout

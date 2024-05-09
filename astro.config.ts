@@ -4,6 +4,9 @@ import sitemap from '@astrojs/sitemap'
 import UnoCSS from 'unocss/astro'
 import vue from '@astrojs/vue'
 
+// built-in themes
+// const themes = ['andromeeda', 'aurora-x', 'ayu-dark', 'catppuccin-frappe', 'catppuccin-latte', 'catppuccin-macchiato', 'catppuccin-mocha', 'dark-plus', 'dracula', 'dracula-soft', 'github-dark', 'github-dark-dimmed', 'github-light', 'light-plus', 'material-theme', 'material-theme-darker', 'material-theme-lighter', 'material-theme-ocean', 'material-theme-palenight', 'min-dark', 'min-light', 'monokai', 'night-owl', 'nord', 'one-dark-pro', 'poimandres', 'red', 'rose-pine', 'rose-pine-dawn', 'rose-pine-moon', 'slack-dark', 'slack-ochin', 'solarized-dark', 'solarized-light', 'synthwave-84', 'tokyo-night', 'vesper', 'vitesse-black', 'vitesse-dark', 'vitesse-light']
+
 export default defineConfig({
   site: 'https://astro-theme-vitesse.netlify.app/',
   server: {
@@ -20,8 +23,8 @@ export default defineConfig({
   markdown: {
     shikiConfig: {
       themes: {
-        light: 'vitesse-light',
-        dark: 'vitesse-dark',
+        light: 'ayu-dark',
+        dark: 'dracula',
       },
       wrap: true,
     },

@@ -24,7 +24,8 @@ export const siteConfig = {
   ],
   hero: {
     title: `Welcome to huisnota's Blog`,
-    text: `<p>I would like to share some of my life and work experiences here.</p>`,
+    text: `<p>I would like to share some of my life and work experiences here.</p>
+      <p><b>There are all kinds of difficulties in the world, but they are just procrastinating, being lazy, and not studying.</b></p>`,
     image: {
       src: 'hero.jpg',
       alt: 'A photo from my friend, it\'s really beautiful',

@@ -16,7 +16,7 @@ export async function getAllPosts() {
     getPosts('blog'),
     getPosts('notes'),
     getPosts('reading'),
-    getPosts('talks'),
+    // getPosts('talks'),
   ])
   return posts.flat().sort(sortPostsByDate)
 }
