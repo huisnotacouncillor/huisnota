@@ -50,5 +50,8 @@ const notes = defineCollection({
 const reading = defineCollection({
   schema: postsSchema,
 })
+const life = defineCollection({
+  schema: postsSchema,
+})
 
-export const collections = { pages, blog, notes, reading }
+export const collections = { pages, blog, notes, reading, life }

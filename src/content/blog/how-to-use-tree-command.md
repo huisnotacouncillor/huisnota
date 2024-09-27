@@ -15,7 +15,7 @@ In order to solve the problem, I did those:
 
 ## My gains from the problem
 
-First of all, if your computer do not install tree, just [google it](https://google.com/search?q=how+to+install+tree+command).
+First of all, if your computer does not install tree, just [google it](https://google.com/search?q=how+to+install+tree+command).
 
 1. tree command like this
 
