@@ -20,12 +20,7 @@ const { title, description, image } = page.data
 const { Content } = await page.render()
 ---
 
-<BaseLayout
-  title={title}
-  description={description}
-  image={image}
-  pageOperate={true}
->
+<BaseLayout title={title} description={description} image={image} pageOperate={true}>
   <article class="mb-16 sm:mb-24">
     <h1 class="text-title">
       {title}

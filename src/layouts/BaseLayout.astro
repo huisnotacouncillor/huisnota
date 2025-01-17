@@ -1,5 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions'
 import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
@@ -13,7 +12,6 @@ const { pageNav = false, pageOperate = false, ...head } = Astro.props
 <html lang="en">
   <head>
     <BaseHead {...head} />
-    <ViewTransitions />
   </head>
   <body class="bg-main text-main min-h-screen font-sans w-full">
     <Header client:load />
@@ -23,11 +21,7 @@ const { pageNav = false, pageOperate = false, ...head } = Astro.props
       {
         pageOperate && (
           <div mt-8>
-            <PageOperate
-              client:load
-              showShare={head.pageType === 'article'}
-              url={Astro.url}
-            />
+            <PageOperate client:load showShare={head.pageType === 'article'} url={Astro.url} />
           </div>
         )
       }

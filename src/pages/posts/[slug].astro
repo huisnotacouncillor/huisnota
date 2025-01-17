@@ -20,16 +20,9 @@ const { post } = Astro.props
 const { title, image, description } = post.data
 const { Content } = await post.render()
 const { remarkPluginFrontmatter } = await post.render()
-console.log('remarkPluginFrontmatter: ', remarkPluginFrontmatter)
 ---
 
-<BaseLayout
-  title={title}
-  description={description}
-  image={image}
-  pageType="article"
-  pageOperate={true}
->
+<BaseLayout title={title} description={description} image={image} pageType="article" pageOperate={true}>
   <article class="mb-16 sm:mb-24">
     <header class="mb-8">
       <h1 class="text-title">

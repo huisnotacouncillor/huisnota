@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { ref, watchEffect } from 'vue'
 import { onClickOutside, useWindowSize } from '@vueuse/core'
+import { ref, watchEffect } from 'vue'
 import siteConfig from '../site-config'
 import ThemeToggle from './ThemeToggle.vue'
 

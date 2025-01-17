@@ -6,11 +6,6 @@ import { getPosts } from '../utils/posts'
 const posts = await getPosts('reading')
 ---
 
-<BaseLayout
-  title="Reading"
-  description="List of all the reading posts."
-  pageNav={true}
-  pageOperate={true}
->
+<BaseLayout title="Reading" description="List of all the reading posts." pageNav={true} pageOperate={true}>
   <ListPosts list={posts} />
 </BaseLayout>

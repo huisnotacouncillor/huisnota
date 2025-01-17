@@ -11,14 +11,14 @@ date: "2025-01-16"
 
 - 能找到分隔符的例子
 ```javascript
-const str = 'hello world';
-const arr = str.split(' ');
-console.log(arr); // ['hello', 'world']
+const str = 'hello world'
+const arr = str.split(' ')
+console.log(arr) // ['hello', 'world']
 ```
 
 - 找不到分隔符的例子
 ```javascript
-const str = '';
-const arr = str.split(' ');
-console.log(arr); // 返回的值 ['']，而不是 []
+const str = ''
+const arr = str.split(' ')
+console.log(arr) // 返回的值 ['']，而不是 []
 ```
