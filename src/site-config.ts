@@ -17,10 +17,6 @@ export const siteConfig = {
       text: 'Blog',
       href: '/blog',
     },
-    {
-      text: 'Projects',
-      href: '/projects',
-    },
   ],
   hero: {
     title: `Welcome to huisnota's Blog`,
@@ -45,6 +41,14 @@ export const siteConfig = {
     {
       text: 'Reading',
       href: '/reading',
+    },
+    // {
+    //   text: 'Projects',
+    //   href: '/projects',
+    // },
+    {
+      text: 'Practice',
+      href: '/practical-experience',
     },
   ],
   projects: [

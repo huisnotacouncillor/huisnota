@@ -1,8 +1,22 @@
 import type { CollectionEntry } from 'astro:content'
 
-export type Posts = 'blog' | 'notes' | 'reading' | 'life'
+export type PostType =
+  | 'blog'
+  | 'notes'
+  | 'reading'
+  | 'life'
+  | 'practice'
 
-export type CollectionPosts = CollectionEntry<Posts>
+export interface Post {
+  id: string
+  slug: string
+  body: string
+  data: Record<string, any>
+  collection: string
+  render: any
+}
+
+export type CollectionPosts = CollectionEntry<PostType>
 
 export type Pages = 'pages'
 

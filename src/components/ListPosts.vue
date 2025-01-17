@@ -1,15 +1,8 @@
 <script lang="ts" setup>
-interface Posts {
-  id: string
-  slug: string
-  body: string
-  data: Record<string, any>
-  collection: string
-  render: any
-}
+import type { Post } from '../types'
 
 withDefaults(defineProps<{
-  list: Posts[]
+  list: Post[]
 }>(), {
   list: () => [],
 })
@@ -18,13 +11,13 @@ function getDate(date: string) {
   return new Date(date).toISOString()
 }
 
-function getHref(posts: Posts) {
+function getHref(posts: Post) {
   if (posts.data.redirect)
     return posts.data.redirect
   return `/posts/${posts.slug}`
 }
 
-function getTarget(posts: Posts) {
+function getTarget(posts: Post) {
   if (posts.data.redirect)
     return '_blank'
   return '_self'
